@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10, 10, 36);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(23, 23, 50);
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(23, 23, 50);
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  background-color: rgb(23, 23, 50);
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 0 23px;
+  background-color: rgb(23, 23, 50);
+}
+nav ul li a:hover {
+  color: rgb(153, 153, 188);
+  font-size: 1.03rem;
+}
+#element {
+  color: blueviolet;
+}
+.left {
+  font-size: 1.5rem;
+  background-color: rgb(23, 23, 50);
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+  align-items: center;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 2.5rem;
+}
+.leftSection .button {
+  
+    padding: 50px 0;
+}
+.leftSection .btn {
+  text-decoration: none;
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.button.btn a {
+  text-decoration: none;
+}
+.leftSection .btn:hover {
+  text-decoration: none;
+    color:gray;
+    
+  }
+.rightSection img {
+  width: 500px;
+
+  padding: -8px;
+}
+.purple {
+  color: blueviolet;
+}
+.footer {
+  justify-content: space-evenly;
+  background-color: rgb(17, 17, 20);
+}
+.footer {
+  display: flex;
+  padding: 23px 123px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 223px;
+}
+.footer-first h3 {
+  background-color: rgb(17, 17, 20);
+}
+.footer-first {
+  background-color: rgb(17, 17, 20);
+}
+.footer-second {
+  background-color: rgb(17, 17, 20);
+}
+.footer-third {
+  background-color: rgb(17, 17, 20);
+}
+.footer-fourth {
+  background-color: rgb(17, 17, 20);
+}
+.footer-second li {
+  background-color: rgb(17, 17, 20);
+}
+.footer-third li {
+  background-color: rgb(17, 17, 20);
+}
+.footer-fourth li {
+  background-color: rgb(17, 17, 20);
+}
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  background-color: rgb(17, 17, 20);
+  padding: 12px 0;
+}
